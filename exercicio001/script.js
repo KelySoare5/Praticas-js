@@ -20,7 +20,8 @@ function carregar(){
     } else {
         msg.innerHTML+="Boa noite!"
         foto.src = "img/fotonoite.jpg"
-        document.body.style.background="#2986EB"
+        document.body.style.background = "linear-gradient(to bottom, #add8e6, #00008b)";
+
     }
 
 }

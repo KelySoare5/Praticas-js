@@ -1,6 +1,11 @@
 @charset "UTF - 8";
+*{
+    
+}
 body{
-    background-color: rgb(83, 83, 253);
+    height: 675px;
+    background-color: beige;
+    /* background: linear-gradient(to bottom, #add8e6, #00008b); */
 }
 header{
     color: #ffffff;
@@ -11,7 +16,7 @@ main{
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.534);
     border-radius: 10px;
     background-color: #ffffff;
-    height: 400px;
+    height: 500px;
     width: 400px;
     margin: auto;
     padding: 20px;
@@ -27,8 +32,8 @@ div#msg{
 img{
     border-radius: 100%;
     position: center center;
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 380px;
 }
 footer{
     color: #ffffff;
