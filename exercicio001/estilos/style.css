@@ -1,7 +1,9 @@
 @charset "UTF - 8";
-
+*{
+    margin: 0px;
+}
 body{
-    height: 673px;
+    overflow: hidden;
     background-color: beige;
 }
 header{
@@ -17,7 +19,7 @@ main{
     height: 500px;
     width: 400px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
 }
 main div{
     color: #ffffff;
@@ -25,7 +27,7 @@ main div{
     font-size: 20px;
 }
 div#msg{
-    padding: 17px;
+    padding: 10px;
     border-radius: 50%;
 }
 img{
@@ -33,9 +35,7 @@ img{
     height: 400px;
     width: 400px;
 }
-img#foto{
-    position: top left;
-}
+
 footer{
     color: #ffffff;
     font-size: 18px;

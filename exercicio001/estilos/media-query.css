@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* tyupical device breakpoints
+Pequenas telas: ate 600px
+Celular: 600px - 768px 
+Tablet: 768px - 992px
+Desktoop: 992px - 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px){
+    *{
+        margin: 0px;
+    }
+    body{
+
+        height: 690px;
+    }
+    header{
+        margin: 20px;
+    }
+    main{
+        width: 600px;
+    }
+
+    img{
+        border-radius: 100%;
+        height: 500px;
+        width: 550px;
+    }
+    footer{
+        font-size: 15px;
+        margin-top: 70px;
+    }
+}
