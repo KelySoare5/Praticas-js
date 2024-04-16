@@ -8,11 +8,22 @@ header{
 }
 main{
     border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.499);
+    background-color: #ffffff;
     padding: 20px;
-    height: 180px;
+    height: 400px;
     width: 400px;
     margin: auto;
 }
+
+img#fotopessoa{
+    margin: auto;
+    margin-top: 15px;
+    height: 250px;
+    width: 300px;
+}
 footer{
     text-align: center;
+    color: #ffffff;
 }
