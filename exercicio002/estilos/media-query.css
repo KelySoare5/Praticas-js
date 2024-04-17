@@ -1,33 +1,79 @@
 @charset "UTF - 8";
 
-@media screen and (min-width: 992px) {
+
+@media screen and (min-width: 800px) {
     main{
-        font-size: 25px;
+        
+        font-size: 20px;
         margin: auto;
-        width: 70%;
+        width: 85%;
         height: 500px;
         display: flex;
     }
     input{
         padding: 5px;
-        font-size: 17px;
         margin: 10px 0px;
     }
 
     div#foto{
+        font-size: 25px;
         width: 70%;
-
     }
     img#fotopessoa{
+        margin-top: 18px;
         border-radius: 10px;
-        height: 350px;
+        height: 450px;
         width: 350px;
 
     }
+    
+    input[type="radio"] {
+        transform: scale(1.5); /* Aumenta o tamanho em 50% */
+        margin-left: 10px;
+    }
     .button{
         padding: 10px;
-        font-size: 20px;
+        font-size: 18px;
         box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.499);
         cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    main{
+
+        width: 70%;
+        font-size: 20px;
+    }
+    img#fotopessoa{
+        border-radius: 20px;
+        width: 350px;
+
+    }
+}
+
+@media screen and (min-width: 1250px){
+    
+
+    main{
+        
+        width: 70%;
+        font-size: 23px;
+
+    }
+    input{
+        font-size: 20px;
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    img#fotopessoa{
+        border-radius: 20px;
+        height: 450px;
+        width: 500px;
+
+    }
+
+    .button{
+        font-size: 18px;
     }
 }
