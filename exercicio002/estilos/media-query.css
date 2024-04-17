@@ -1,0 +1,33 @@
+@charset "UTF - 8";
+
+@media screen and (min-width: 992px) {
+    main{
+        font-size: 25px;
+        margin: auto;
+        width: 70%;
+        height: 500px;
+        display: flex;
+    }
+    input{
+        padding: 5px;
+        font-size: 17px;
+        margin: 10px 0px;
+    }
+
+    div#foto{
+        width: 70%;
+
+    }
+    img#fotopessoa{
+        border-radius: 10px;
+        height: 350px;
+        width: 350px;
+
+    }
+    .button{
+        padding: 10px;
+        font-size: 20px;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.499);
+        cursor: pointer;
+    }
+}
