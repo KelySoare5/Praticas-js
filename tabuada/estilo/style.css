@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #5e5ee0;
+}
+header{
+    text-align: center;
+    color: #ffffff;
+    margin: 30px;
+}
+
+main{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+section{
+    border: 1px solid red;
+}
+main div select#tabuada{
+    margin-top: 10px;
+}
+footer{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 200px;
+    border: 1px solid blue;
+    
+}
+footer p a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer p a:hover{
+    text-decoration: underline;
+    color: #1f14be;
+    cursor: pointer;
+}

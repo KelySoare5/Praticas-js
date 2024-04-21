@@ -9,7 +9,7 @@ function contar(){
     var inicio = Number(i.value)
     var fim = Number(f.value)
     var passo = Number(p.value)
-
+    res.innerHTML = ("")
     if (inicio == "" || fim == "" || passo == ""){
         res.innerHTML=("Digite um numero e vamos contar!")
     }
@@ -29,6 +29,3 @@ function contar(){
 }
 
 
-function regarregarPagina(){
-    location.reload()
-}
