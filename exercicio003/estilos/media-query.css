@@ -1,8 +1,56 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 800px) {
-    section{
-        margin: auto;
+    main section label{
+        font-size: 18px;
+        padding: 14px;
     }
+    main section input[type="number"]{
+        font-size: 17px;
+        padding: 0px 5px;
+    }
+    main section input[type="button"]{
+        margin: 10px 8px;
+        padding: 6px;
+        font-size: 16px;
+    }
+    main section p{
+        margin: 10px 8px;
+        font-size: 18px;
+
+    }
+    main section #res{
+        margin: 15px 20px;
+        font-size: 18px;
+        word-spacing: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1050px) {
+    main{
+        width: 70%;
+    }
+
+    main section input[type="number"]{
+        font-size: 18px;
+        padding: 0px 8px;
+    }
+    main section input[type="button"]{
+        margin: 10px 16px;
+        padding: 6px;
+        font-size: 18px;
+    }
+    main section p{
+        margin: 10px 18px;
+        font-size: 18px;
+
+    }
+    main section #res{
+        margin: 15px 20px;
+        font-size: 20px;
+        word-spacing: 15px;
+    }
+
     
 }
