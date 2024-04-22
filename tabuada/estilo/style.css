@@ -19,19 +19,29 @@ main{
     margin: auto;
     width: 80%;
     padding: 20px;
+
+
 }
-section{
+/* section{
     border: 1px solid red;
+
+} */
+
+main section input{
+    padding: 3px;
 }
-main div select#tabuada{
-    margin-top: 10px;
+main section div select#tabuada{
+    margin: 10px 0px;
+    padding: 7px;
+    font-size: 16px;
 }
+
 footer{
     color: #ffffff;
     font-size: 18px;
     text-align: center;
-    margin-top: 200px;
-    border: 1px solid blue;
+    margin-top: 20px;
+    /* border: 1px solid rgb(0, 255, 34); */
     
 }
 footer p a{

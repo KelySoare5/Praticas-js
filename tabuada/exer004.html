@@ -14,12 +14,26 @@
         <section>
             <label for="num">Numero: </label>
             <input type="number" name="num" id="num" placeholder="ex: 5">
-            <input type="button" value="Gerar Tabuada" onclick="gerarTabuada()">
             
+            
+            <p>Escolha os Operadores:</p>
+            <input type="radio" name="operadores" id="adicao" checked>
+            <label for="adicao">Adição</label>
+            <input type="radio" name="operadores" id="subtracao">
+            <label for="subtracao">Subtração</label> 
+            <input type="radio" name="operadores" id="mulplicacao">
+            <label for="mulplicacao">Multiplicação</label>
+            <input type="radio" name="operadores" id="divisao">
+            <label for="divisao">Divisão</label>
+            
+            <input type="button" value="Gerar Tabuada" onclick="gerarTabuada()">
+
             <div>
                 <select name="tabuada" id="tabuada" size="10">
+                    <option value="">Digite um numero acima</option>
                 </select>
             </div>
+            
         </section>
     </main>
 
