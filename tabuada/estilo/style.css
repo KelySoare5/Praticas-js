@@ -22,16 +22,15 @@ main{
 
 
 }
-/* section{
-    border: 1px solid red;
-
-} */
-
+main section p{
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
 main section input{
+    margin: 10px 0px;
     padding: 3px;
 }
 main section div select#tabuada{
-    margin: 10px 0px;
     padding: 7px;
     font-size: 16px;
 }
