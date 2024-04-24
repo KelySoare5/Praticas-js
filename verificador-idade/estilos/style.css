@@ -1,7 +1,7 @@
 @charset "UTC-8";
 
 body{
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: rgb(135, 158, 222);
 }
 header{
@@ -10,11 +10,11 @@ header{
 }
 main{
     font-size: 18px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 10px;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.499);
     background-color: #ffffff;
-    padding: 20px;
+    padding: 12px;
     width: 80%;
     margin: auto;
 }
@@ -27,7 +27,7 @@ img#fotopessoa{
     padding: 5px;
     margin: auto;
     height: 350px;
-    width: 350px;
+    width: 70%;
 }
 .button{
     font-size: 16px;
@@ -35,7 +35,7 @@ img#fotopessoa{
     cursor: pointer;
 }
 footer{
-    
+    margin: 20px;
     text-align: center;
     color: #ffffff;
 }

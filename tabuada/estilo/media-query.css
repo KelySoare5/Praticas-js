@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 990px) {
     main{
-        background-color: brown;
+
         font-size: 18px;
     }
     section{
@@ -31,13 +31,12 @@
 @media screen and (min-width: 1150px) {
     main{
         width: 800px;
-        background-color: bisque;
     }
     
 }
 @media screen and (min-width:1320px) {
     main{
         width: 60%;
-        background-color: blueviolet;
+
     }
 }
