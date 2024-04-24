@@ -19,14 +19,26 @@
                 
                 
                 <p>Escolha os Operadores:</p>
-                <input type="radio" name="operadores" id="adicao" checked>
-                <label for="adicao">Adição</label>
-                <input type="radio" name="operadores" id="subtracao">
-                <label for="subtracao">Subtração</label>
-                <input type="radio" name="operadores" id="mulplicacao">
-                <label for="mulplicacao">Multiplicação</label>
-                <input type="radio" name="operadores" id="divisao">
-                <label for="divisao">Divisão</label> <br>
+
+                <div class="operadores_tela_menores">
+                    <select name="opera" id="opera">
+                        <option value="adc">Adiçao</option>
+                        <option value="sub">Subtração</option>
+                        <option value="mul">Multiplicação</option>
+                        <option value="divi">Divisão</option>
+                    </select>
+                </div>
+                
+                <div class="operadores_tela_maiores">
+                    <input type="radio" name="operadores" id="adicao" checked>
+                    <label for="adicao">Adição</label>
+                    <input type="radio" name="operadores" id="subtracao">
+                    <label for="subtracao">Subtração</label>
+                    <input type="radio" name="operadores" id="mulplicacao">
+                    <label for="mulplicacao">Multiplicação</label>
+                    <input type="radio" name="operadores" id="divisao">
+                    <label for="divisao">Divisão</label> <br>
+                </div>
                 
                 <input type="button" value="Gerar Tabuada" onclick="gerarTabuada()">
             </div>

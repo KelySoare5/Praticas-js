@@ -26,6 +26,9 @@ main section p{
    margin-top: 5px;
    margin-bottom: 5px;
 }
+.operadores_tela_maiores{
+    display: none;
+}
 main section input{
     margin: 10px 0px;
     padding: 3px;

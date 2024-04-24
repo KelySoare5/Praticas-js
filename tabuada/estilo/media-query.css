@@ -1,20 +1,29 @@
 @charset "UTF - 8";
 
+@media screen and (min-width: 500px) {
+    .operadores_tela_menores{
+        display: none;
+    }
+    .operadores_tela_maiores{
+        display: block;
+    }
+}
 @media screen and (min-width: 990px) {
     main{
-
+        /* background-color: blue; */
         font-size: 18px;
     }
     section{
         display: flex;
     }
+    
     main section input{
         font-size: 18px;
         
     }
     main section input[type="radio"]{
         transform: scale(1.2);
-        margin: 20px 5px;
+        margin: 15px 3px;
     }
 
     main section div.tab{
@@ -32,11 +41,17 @@
     main{
         width: 800px;
     }
-    
+    /* .operadores_tela_menores{
+        display: none;
+    } */
 }
 @media screen and (min-width:1320px) {
     main{
         width: 60%;
 
     }
+    /* .operadores_tela_menores{
+        display: none;
+    } */
+
 }
