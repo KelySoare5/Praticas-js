@@ -1,28 +1,28 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
-    *{
-        margin: 0px;
+@media screen and (min-width: 560px) {
+    div#msg{
+        font-size: 25px;
     }
-    body{
-
-        height: 690px;
-    }
-    header{
-        margin: 20px;
-    }
-    main{
-        width: 600px;
-    }
-
     img{
-        border-radius: 100%;
-        height: 500px;
-        width: 550px;
-        margin-bottom: 15px;
+
+        height: 300px;
+        width: 400px;
+    }
+}
+@media screen and (min-width: 768px){
+
+    
+    div#msg{
+        font-size: 30px;
+    }
+    img{
+
+        height: 300px;
+        width: 400px;
     }
     footer{
+        height: 20px;
         font-size: 15px;
-        margin-top: 85px;
     }
 }
