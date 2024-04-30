@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Lista numerica</title>
+</head>
+<body>
+    <header>
+        <h1>Lista numerica</h1>
+    </header>
+
+    <main>
+        <section>
+            <label for="inum">Numero de 1 a 100:</label> <br>
+            <input type="number" name="num" id="inum" min="1" max="100" >
+            <input type="button" value="Adicionar" onclick="AdcionarNumero()">
+        </section>
+        
+        <section>
+            <select name="listaNum" id="listaNum" size="10">
+                <option value="">Adicione na lista</option>
+            </select><br>
+            <input type="button" value="Finalizar">
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://kelysoaress.carrd.co/" target="_blank">Kely_Soares</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

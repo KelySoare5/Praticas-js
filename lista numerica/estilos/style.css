@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #0f86aa;
+
+}
+header{
+    color: #ffffff;
+    margin: 20px;
+    text-align: center;
+}
+
+main{
+    border: 1px solid blue;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+input{
+    padding: 3px;
+    margin: 7px 0px;
+}
+input[type="button"]{
+    padding: 3px;
+}
+#listaNum{
+    
+    width: 40%;
+    padding: 5px;
+}
+
+footer{
+    color: #ffffff;
+    margin: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
