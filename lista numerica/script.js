@@ -54,12 +54,12 @@ function finalizar(){
                 menor = lista_numerica[pos]
         }
         media = soma / lista_numerica.length
-        res.innerHTML= `<p>[${lista_numerica}]</p>`
+        res.innerHTML= `<p>[${lista_numerica.join('\n')}]</p>`
         res.innerHTML += `<p>Foram registrados ${lista_numerica.length} numeros</p>`
         res.innerHTML += `<p>Maior valor adicionado foi ${maior}</p>`
         res.innerHTML += `<p> O menor valor adicionado foi ${menor}</p>`
-        res.innerHTML += `<p> A soma dos valores é ${soma}`
-        res.innerHTML += `<p> A média dos valores é ${formatarNumero(media)}`
+        res.innerHTML += `<p> A soma dos valores é ${soma}</p>`
+        res.innerHTML += `<p> A média dos valores é ${formatarNumero(media)}</p>`
 
         
     }
